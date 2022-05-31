@@ -1,0 +1,20 @@
+{
+    "name": "codevia/request-analyzer",
+    "description": "This is a PSR-7 request analyzer to easily find usefull data such as pagination query params",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Codevia\\RequestAnalyzer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vincent Bathelier",
+            "email": "53569029+d9beuD@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "psr/http-message": "^1.0"
+    }
+}
